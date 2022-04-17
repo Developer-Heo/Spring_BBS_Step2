@@ -5,9 +5,9 @@
 
 <configuration>
 
-    <!-- <typeHandlers>
-        <typeHandler handler="stove99.handler.CLOBHandler" javaType="String" jdbcType="LONGVARCHAR"/>
-    </typeHandlers> -->
+    <typeAliases>
+     <package name="org.zerock.domain"/>
+    </typeAliases>
 
 
 </configuration>
