@@ -36,7 +36,7 @@ public class BoardController {
 		
 		model.addAttribute("result", "success");
 		
-		return "/board/succeess";
+		return "/board/success";
 		
 	}
 
