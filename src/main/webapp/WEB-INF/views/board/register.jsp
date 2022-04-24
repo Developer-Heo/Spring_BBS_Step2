@@ -17,7 +17,7 @@
         <div class="form-group">
           <label for="exampleInputEmail">Content</label>
           <textarea rows="3"
-            name='writer' class="form-control" placeholder="Enter ..."></textarea>
+            name='content' class="form-control" placeholder="Enter ..."></textarea>
         </div>
         <div class="form-group">
           <label for="exampleInputEmail">Writer</label>
