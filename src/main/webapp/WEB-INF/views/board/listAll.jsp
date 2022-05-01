@@ -13,7 +13,7 @@
 <script>
     var result = '${msg}';
     
-    if(result == 'success'){
+    if(result == 'SUCCESS'){
     	alert("처리가 완료되었습니다.");
     }
 </script>
