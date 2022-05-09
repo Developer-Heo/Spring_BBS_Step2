@@ -34,7 +34,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     where bno = #{bno}
   </delete>
   
-   <select id="listAll" resultType="org.zerock.domain.BoardVO">
+   <select id="listPage" resultType="org.zerock.domain.BoardVO">
    <![CDATA[
      select bno
           , title
@@ -50,7 +50,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
       ]]>
    </select>
    
-   <select id="listPage" resultType="org.zerock.domain.BoardVO">
+   <select id="listAll" resultType="org.zerock.domain.BoardVO">
    <![CDATA[
      select bno
           , title
